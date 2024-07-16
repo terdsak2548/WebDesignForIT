@@ -1,0 +1,11 @@
+p{
+    color: gray;
+}
+div{
+    color: white;
+    background-color: black;
+}
+span{
+    font-size: 18px;
+    font-weight: bold;
+}
