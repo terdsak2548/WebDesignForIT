@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การกำหนดสไตล์ด้วยซีเล็คเตอร์ child</title>
+</head>
+<style>
+    p:first-child{
+        background-color: lightgray;
+        font-weight: bold;
+        font-size: 18pt;
+    }
+    p:last-child{
+        background-color: black;
+        color: white;
+        font-style: italic;
+    }
+    li:nth-child(1){
+        color: red;
+    }
+    li:nth-child(3){
+        color: lightblue;
+    }
+</style>
+<body>
+    <div>
+        <P>first-child / nth-child(1)</P>
+        <p>nth-child(2)</p>        
+        <p>nth-child(3)</p>
+        <p>last child / nth-child(4)</p>
+    </div>
+    <ul>
+    <li>red</li>
+    <li>green</li>
+    <li>lightblue</li>
+    <li> yellow</li>
+    </ul>
+</body>
+</html>
